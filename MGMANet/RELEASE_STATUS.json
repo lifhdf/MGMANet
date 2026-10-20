@@ -1,0 +1,14 @@
+{
+  "release_type": "public_pre_release",
+  "version": "0.1.0a0",
+  "research_core_included": false,
+  "model_weights_included": false,
+  "training_available": false,
+  "inference_available": false,
+  "evaluation_available": true,
+  "visualization_available": true,
+  "examples_are_synthetic": true,
+  "reproduces_paper_results": false,
+  "core_release_plan": "After paper acceptance",
+  "license_scope": "Files distributed in this public pre-release only"
+}
