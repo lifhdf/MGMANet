@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "evaluation_type": "reference_all_points_ap",
+  "bbox_format": "xywh",
+  "score_threshold": 0.0,
+  "num_images": 3,
+  "num_ground_truth": 3,
+  "num_predictions_input": 5,
+  "num_predictions_evaluated": 5,
+  "mean_ap": 0.7916666666666666,
+  "thresholds": [
+    {
+      "iou": 0.5,
+      "map": 0.9166666666666666,
+      "per_class": [
+        {
+          "category_id": 0,
+          "name": "target",
+          "num_gt": 3,
+          "num_predictions": 5,
+          "tp": 3,
+          "fp": 2,
+          "fn": 0,
+          "precision": 0.6,
+          "recall": 1.0,
+          "ap": 0.9166666666666666
+        }
+      ]
+    },
+    {
+      "iou": 0.75,
+      "map": 0.6666666666666666,
+      "per_class": [
+        {
+          "category_id": 0,
+          "name": "target",
+          "num_gt": 3,
+          "num_predictions": 5,
+          "tp": 2,
+          "fp": 3,
+          "fn": 1,
+          "precision": 0.4,
+          "recall": 0.6666666666666666,
+          "ap": 0.6666666666666666
+        }
+      ]
+    }
+  ],
+  "note": "Reference utility only; not official COCO mAP or a reproduction of paper results."
+}
