@@ -1,3 +1,0 @@
-# Runtime dependencies: Python standard library only (Python >= 3.9).
-# Optional editable installation uses setuptools through pyproject.toml.
-# No PyTorch, CUDA, model checkpoints, or private dependency archives are needed.
